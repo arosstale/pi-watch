@@ -1,0 +1,19 @@
+{
+  "name": "@artale/pi-watch",
+  "version": "1.0.0",
+  "description": "File watcher for Pi. Watch source files for #pi! comments and send them as prompts — aider-style watch mode.",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "author": "artale",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arosstale/pi-watch.git"
+  },
+  "files": ["src/extension.ts"],
+  "pi": {
+    "extensions": ["src/extension.ts"]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  }
+}
